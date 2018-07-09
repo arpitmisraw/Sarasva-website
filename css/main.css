@@ -2332,7 +2332,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }*/
 
 .about-banner{
-  /*background-color:   #e2e8c5;*/
+  background-color:  rgb(4, 9, 30);
 }
 
 .p1-gradient-color, .single-services:hover .lnr {
@@ -4521,6 +4521,7 @@ dl.accordion.time-line:before {
 .sarasva-carousel{
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 
@@ -4561,6 +4562,7 @@ dl.accordion.time-line:before {
   .d-block{
     height: 300px;
   }
+
 }
 
 @media(max-width: 400px){
@@ -4569,8 +4571,34 @@ dl.accordion.time-line:before {
   }
 }
 
+@media(max-width: 992px){
+  .d-block-about{
+    height: 300px;
+  }
+}
+
+@media(max-width: 500px){
+  .d-block-about{
+    height: 200px;
+  }
+}
+
 .event-about{
   font-size: 18px;
 }
 
+.carousel-inner{
+  border: 10px solid black;
+  border-radius: 15px;
+  box-shadow: 20px 20px rgba(100, 100, 100, 0.3);
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+}
 
+.carousel:hover .carousel-inner{
+  box-shadow: 10px 10px rgba(100, 100, 100, 1);
+  top: 5px;
+  left: 5px;
+}
