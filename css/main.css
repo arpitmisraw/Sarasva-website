@@ -2452,7 +2452,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   /*background-color: #e0ecff;*/
   background-image: url(../img/background-1.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   /*opacity: 0.1;*/
   /*background-color: rgba(30, 30, 30, 0.8);*/
 }
@@ -2518,7 +2518,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------- Start home-about Area ------------*/
 .home-about-area{
   /*background: #f9f9ff;*/
-  /*background-color:   #e2e8c5;*/
+  background-color:   #e2e8c5;
   /*background-image: url(../img/background-6.jpg);*/
   /*background-size: 100% 100%;*/
   /*margin-top: 50px; */
@@ -4527,6 +4527,7 @@ dl.accordion.time-line:before {
 }
 
 
+
 .carousel{
   margin: auto;
   width: 80%;
@@ -4609,3 +4610,10 @@ dl.accordion.time-line:before {
   margin-top: 60px;
 }
 
+.know-more{
+  color: blue;
+}
+
+.know-more:hover{
+  cursor: pointer;
+}

@@ -199,6 +199,14 @@ $(document).ready(function() {
         }
     }); 
 
+
+
+    $(".know-more").click(function(){
+        $('html, body').animate({
+            scrollTop: $(".home-about-area").offset().top
+        }, 1000);
+    });
+
     //------- Mobile Nav  js --------//  
 
     if ($('#nav-menu-container').length) {
