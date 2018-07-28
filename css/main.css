@@ -2318,7 +2318,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Homepage Styles
 /* =================================== */
 .section-gap {
-  padding: 120px 0;
+  padding: 60px 0 60px 0;
 }
 
 .alert-msg {
@@ -2332,7 +2332,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }*/
 
 .about-banner{
-  /*background-color:   #e2e8c5;*/
+  background-color:  rgb(4, 9, 30);
 }
 
 .p1-gradient-color, .single-services:hover .lnr {
@@ -2451,6 +2451,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   /*background: #f9f9ff;*/
   /*background-color: #e0ecff;*/
   background-image: url(../img/background-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   /*opacity: 0.1;*/
   /*background-color: rgba(30, 30, 30, 0.8);*/
 }
@@ -3068,8 +3070,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-content {
-  margin-top: 70px;
-  padding: 90px 0px;
+  margin-top: 90px;
+  padding: 10px 0px;
   text-align: center;
 }
 
@@ -4255,7 +4257,7 @@ dl.accordion.time-line:before {
 /*  Contact Page Styles
 /* =================================== */
 .contact-page-area {
-  background: #f9f9ff;
+  background: white;
 }
 
 .contact-page-area .map-wrap {
@@ -4521,7 +4523,9 @@ dl.accordion.time-line:before {
 .sarasva-carousel{
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
+
 
 
 .carousel{
@@ -4561,6 +4565,7 @@ dl.accordion.time-line:before {
   .d-block{
     height: 300px;
   }
+
 }
 
 @media(max-width: 400px){
@@ -4569,8 +4574,46 @@ dl.accordion.time-line:before {
   }
 }
 
+@media(max-width: 992px){
+  .d-block-about{
+    height: 300px;
+  }
+}
+
+@media(max-width: 500px){
+  .d-block-about{
+    height: 200px;
+  }
+}
+
 .event-about{
   font-size: 18px;
 }
 
+.carousel-inner{
+  border: 10px solid black;
+  border-radius: 15px;
+  box-shadow: 20px 20px rgba(100, 100, 100, 0.3);
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+}
 
+.carousel:hover .carousel-inner{
+  box-shadow: 10px 10px rgba(100, 100, 100, 1);
+  top: 5px;
+  left: 5px;
+}
+
+#map{
+  margin-top: 60px;
+}
+
+.know-more{
+  color: blue;
+}
+
+.know-more:hover{
+  cursor: pointer;
+}

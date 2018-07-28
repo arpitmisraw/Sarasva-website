@@ -199,6 +199,14 @@ $(document).ready(function() {
         }
     }); 
 
+
+
+    $(".know-more").click(function(){
+        $('html, body').animate({
+            scrollTop: $(".home-about-area").offset().top
+        }, 1000);
+    });
+
     //------- Mobile Nav  js --------//  
 
     if ($('#nav-menu-container').length) {
@@ -342,8 +350,8 @@ $(document).ready(function() {
 
         function init() {
             var mapOptions = {
-                zoom: 11,
-                center: new google.maps.LatLng(40.6700, -73.9400), // New York
+                zoom: 16,
+                center: new google.maps.LatLng(25.430287, 81.77078899999992), // IIIT, Allahabad
                 styles: [{
                     "featureType": "water",
                     "elementType": "geometry",
@@ -464,7 +472,7 @@ $(document).ready(function() {
             var mapElement = document.getElementById('map');
             var map = new google.maps.Map(mapElement, mapOptions);
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(40.6700, -73.9400),
+                position: new google.maps.LatLng(25.430287, 81.77078899999992),
                 map: map,
                 title: 'Snazzy!'
             });
