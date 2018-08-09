@@ -118,6 +118,10 @@ a, a:focus, a:hover {
   outline: 0;
 }
 
+.align {
+  text-align: justify;
+}
+
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
@@ -2450,9 +2454,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-area {
   /*background: #f9f9ff;*/
   /*background-color: #e0ecff;*/
-  background-image: url(../img/background-1.jpg);
+  background-image: url(../img/background-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 120%;
   /*opacity: 0.1;*/
   /*background-color: rgba(30, 30, 30, 0.8);*/
 }
