@@ -2149,6 +2149,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.lnr-menu:before{
+  color: #ffffff;
+}
+
 /* Nav Meu Styling */
 .nav-menu a {
   padding: 0 8px 0px 8px;
@@ -2454,6 +2458,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-area {
   /*background: #f9f9ff;*/
   /*background-color: #e0ecff;*/
+  margin-top:50px ;
+   background-attachment: fixed;
   background-image: url(../img/background-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -4533,9 +4539,10 @@ dl.accordion.time-line:before {
 
 
 .sarasva-carousel{
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   /*margin-bottom: 50px;
   */text-align: center;
+
 }
 
 
@@ -4549,13 +4556,13 @@ dl.accordion.time-line:before {
 
 @media(max-width: 1000px){
   .carousel{
-    width: 75%;
+    width: 100%;
   }
 }
 
 @media(max-width: 700px){
   .carousel{
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -4569,32 +4576,32 @@ dl.accordion.time-line:before {
 
 @media(max-width: 1000px){
   .d-block{
-    height: 400px;
+   /* height: 400px;*/
   }
 }
 
 @media(max-width: 700px){
   .d-block{
-    height: 300px;
+   /* height: 300px;*/
   }
 
 }
 
 @media(max-width: 400px){
   .d-block{
-    height: 200px;
+   /* height: 200px;*/
   }
 }
 
 @media(max-width: 992px){
   .d-block-about{
-    height: 300px;
+   /* height: 300px;*/
   }
 }
 
 @media(max-width: 500px){
   .d-block-about{
-    height: 200px;
+   /* height: 200px;*/
   }
 }
 
@@ -4633,5 +4640,6 @@ dl.accordion.time-line:before {
 
 #srishti
 {
-  margin-left: 33.33%;
+  /*margin-left: 33.33%;*/
+  
 }
