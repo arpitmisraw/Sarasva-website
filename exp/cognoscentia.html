@@ -13,8 +13,13 @@
 		<meta name="keywords" content="">
 		<!-- meta character set -->
 		<meta charset="UTF-8">
+		<link rel="icon" href="https://sarasva.iiita.ac.in/wp-content/uploads/2016/07/cropped-android-chrome-512x512-32x32.png" sizes="32x32">
+		<link rel="icon" href="https://sarasva.iiita.ac.in/wp-content/uploads/2016/07/cropped-android-chrome-512x512-192x192.png" sizes="192x192">
+		<link rel="apple-touch-icon-precomposed" href="https://sarasva.iiita.ac.in/wp-content/uploads/2016/07/cropped-android-chrome-512x512-180x180.png">
+		 
+		<link rel="shortcut icon" href="sarasva.ico">
 		<!-- Site Title -->
-		<title>Contact Us</title>
+		<title>Cognoscentia</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
@@ -23,18 +28,20 @@
 			<link rel="stylesheet" href="css/linearicons.css">
 			<link rel="stylesheet" href="css/font-awesome.min.css">
 			<link rel="stylesheet" href="css/bootstrap.css">
-			<link rel="stylesheet" href="css/magnific-popup.css">			
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/jquery-ui.css">				
 			<link rel="stylesheet" href="css/nice-select.css">							
 			<link rel="stylesheet" href="css/animate.min.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">			
-			<link rel="stylesheet" href="css/jquery-ui.css">			
+			<link rel="stylesheet" href="css/owl.carousel.css">					
 			<link rel="stylesheet" href="css/main.css">
 		</head>
 		<body>	
+
+
 		  <header id="header">
 		    <div class="container main-menu">
 		    	<div class="row align-items-center justify-content-between d-flex">
-			     <div id="logo">
+			      <div id="logo">
 			        <a href="index.html"><img src="img/s.gif" alt="" title="" style="height: 40px; width: 40px;">
 			        <div class="logo-text" style="color: white">Sarasva, IIITA</div>
 			        </a>
@@ -43,12 +50,14 @@
 			        <ul class="nav-menu">
 			          <li><a href="index.html">Home</a></li>			
 			          <li class="menu-has-children"><a href="">Events</a>
-			             <ul>
+			            <ul>
 			              <li><a href="https://tedx.iiita.ac.in/">TEDxIIITA</a></li>
 			              <li><a href="https://mun.iiita.ac.in/">IIITA-MUN</a></li>
+			              <li><a href="kavisammelan.html">Kavi Sammelan</a></li>
 			              <li><a href="litathon.html">Lit-a-thon</a></li>
-			              <li><a href="cognoscentia.html">Cognoscentia</a></li>
-			              <li><a href="feathers.html">Feathers</a></li>			  
+			              <li><a href="cognoscentia.html">Cognoscentia</a></li>	
+			              <li><a href="feathers.html">Feathers</a></li>	
+			              <li><a href="brainbrawl.html">Brain Brawl</a></li>				  
 			            </ul>
 			          </li>			          					          		          
 			          <li><a href="contact.html">Contact</a></li>
@@ -58,82 +67,79 @@
 		    	</div>
 		    </div>
 		  </header><!-- #header -->
-	  
+			  
 			<!-- start banner Area -->
-			<section class="relative about-banner">	
-				<div class="overlay overlay-bg"></div>
-				<div class="container">				
+			<section class="about-banner">
+				<div class="container-fluid">				
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								Contact Us <hr>				
+								Cognoscentia <hr>			
 							</h1>	
+							<!-- <p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.html"> Lit-a-thon</a></p> -->
 						</div>	
 					</div>
 				</div>
 			</section>
-			<!-- End banner Area -->				  
+			<!-- End banner Area -->	
 
-			<!-- Start contact-page Area -->
-			<section class="contact-page-area section-gap">
-				<div class="container">
-					<div class="row">
-						
-						<div class="col-lg-4 d-flex flex-column address-wrap">
-							<div class="single-contact-address d-flex flex-row">
-								<div class="icon">
-									<span class="lnr lnr-home"></span>
-								</div>
-								<div class="contact-details">
-									<h5>Indian Institute of Information Technology</h5>
-									<p>
-										Jhalwa, Allahabad
-									</p>
-								</div>
-							</div>
-							<div class="single-contact-address d-flex flex-row">
-								<div class="icon">
-									<span class="lnr lnr-phone-handset"></span>
-								</div>
-								<div class="contact-details">
-									<h5>999999999</h5>
-								</div>
-							</div>
-							<div class="single-contact-address d-flex flex-row">
-								<div class="icon">
-									<span class="lnr lnr-envelope"></span>
-								</div>
-								<div class="contact-details">
-									<h5>sarasva.society@iiita.ac.in</h5>
-									<p>Send us your query anytime!</p>
-								</div>
-							</div>														
-						</div>
-						<div class="col-lg-8">
-							<form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
-								<div class="row">	
-									<div class="col-lg-6 form-group">
-										<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
-									
-										<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
 
-										<input name="subject" placeholder="Enter subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control" required="" type="text">
-									</div>
-									<div class="col-lg-6 form-group">
-										<textarea class="common-textarea form-control" name="message" placeholder="Enter Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'" required=""></textarea>				
-									</div>
-									<div class="col-lg-12">
-										<div class="alert-msg" style="text-align: left;"></div>
-										<button class="genric-btn primary" style="float: right;">Send Message</button>											
-									</div>
-								</div>
-							</form>	
-						</div>
-						<div class="map-wrap" style="width:100%; height: 445px;" id="map"></div>
-					</div>
-				</div>	
-			</section>
-			<!-- End contact-page Area -->
+			<div class="container-fluid" style="margin-bottom: 120px;">
+				<div class="row">
+					<div class="col-xs-12 col-md-8" style="margin-top: 40px;">
+
+			<div class="about-carousel">
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 80%;">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block-about w-100" src="img/cogno1.jpg" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block-about w-100" src="img/cogno6.jpg" alt="Second slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block-about w-100" src="img/cogno4.jpg" alt="Third slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block-about w-100" src="img/cogno7.jpg" alt="Fourth slide">
+		    </div>
+		   </div>
+		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+		</div>
+
+	</div>
+	<div class="col-xs-12 col-md-4" style="margin-top: 40px;">
+
+
+		<div class="container event-about">
+			<div class="row">
+				<div class="col-md-12">
+					<p>Cognoscentia is the flagship quizzing event of Sarasva which is organized annually as a part of the cultural fest, Effervescence. A mind boggling and insanely competitive inter-college quiz, the event aims to bring out the genius in the participants as they attempt to answer mind numbing questions. This event boasts of participation from numerous candidates from the most prestigious institutions of the country.</p>
+
+					<p>The participants engage in a battle of wits amidst intense competition. Boasting of a meticulously prepared question bank, this taxing event is known to test the mettle of even the most experienced quizzers as they not only face perplexing questions, but also need nerves of steel as they take part in intense tie breakers with equally talented opposition.</p>
+
+					<p>Apart from the amazing experience of slugging it out with the best minds of the country, the lucrative prizes provide another incentive for the teams to perform to their limits. This event is sure to be an enlightening experience for the participants and audience alike.</p>
+
+					<p>With its ever-widening plethora of brain-wrecking questions that leave no genre untouched, and a maddening, almost ubiquitarian atmosphere where times runs short and questions loom large, Cognoscentia gives you a chance to be the cynosure and stun the world with your mettle.</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+			
+
+			
 
             <!-- start footer Area -->
             <footer class="footer-area section-gap">
@@ -182,7 +188,7 @@
                     </div>
                 </div>
             </footer>
-            <!-- End footer Area -->		
+            <!-- End footer Area -->	
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="js/popper.min.js"></script>
@@ -201,6 +207,8 @@
 			<script src="js/simple-skillbar.js"></script>							
 			<script src="js/owl.carousel.min.js"></script>							
 			<script src="js/mail-script.js"></script>	
-			<script src="js/main.js"></script>	
+			<script src="js/main.js"></script>
+
+
 		</body>
 	</html>

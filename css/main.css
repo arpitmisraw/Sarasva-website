@@ -118,6 +118,10 @@ a, a:focus, a:hover {
   outline: 0;
 }
 
+.align {
+  text-align: justify;
+}
+
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
@@ -2450,9 +2454,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-area {
   /*background: #f9f9ff;*/
   /*background-color: #e0ecff;*/
-  background-image: url(../img/background-1.jpg);
+  background-image: url(../img/background-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 120%;
   /*opacity: 0.1;*/
   /*background-color: rgba(30, 30, 30, 0.8);*/
 }
@@ -4355,6 +4360,13 @@ dl.accordion.time-line:before {
   font-weight: 500;
 }
 
+
+.single-footer-widget h1 {
+  color: #fff !important;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
 .single-footer-widget .form-control {
   border: none;
   width: 80% !important;
@@ -4522,15 +4534,15 @@ dl.accordion.time-line:before {
 
 .sarasva-carousel{
   margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
+  /*margin-bottom: 50px;
+  */text-align: center;
 }
 
 
 
 .carousel{
   margin: auto;
-  width: 80%;
+  width: 100%;
   transition: width 1s;
   /*margin-left: 200px;*/
 }
@@ -4548,7 +4560,7 @@ dl.accordion.time-line:before {
 }
 
 .d-block{
-  height: 540px;
+  
 }
 
 .d-block-about{
@@ -4591,20 +4603,21 @@ dl.accordion.time-line:before {
 }
 
 .carousel-inner{
-  border: 10px solid black;
+  object-fit: cover;
+  /*border: 10px solid black;
   border-radius: 15px;
   box-shadow: 20px 20px rgba(100, 100, 100, 0.3);
-  position: relative;
+  */position: relative;
   top: 0;
   left: 0;
   transition: all 0.5s;
 }
 
 .carousel:hover .carousel-inner{
-  box-shadow: 10px 10px rgba(100, 100, 100, 1);
+  /*box-shadow: 10px 10px rgba(100, 100, 100, 1);
   top: 5px;
   left: 5px;
-}
+}*/
 
 #map{
   margin-top: 60px;
