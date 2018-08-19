@@ -87,6 +87,7 @@ body {
   line-height: 1.625em;
   position: relative;
   padding-right: 0%;
+  overflow-x: hidden;
 }
 
 
@@ -2210,7 +2211,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
   position: fixed;
-  right: 35px;
+  right: 50px;
   z-index: 999;
   top: 22px;
   border: 0;
